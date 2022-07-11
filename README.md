@@ -1,2 +1,2 @@
-# Hi there 👋
-My name is João, and is my first project with HTML5
+# LinkTree
+My first project with HTML5
