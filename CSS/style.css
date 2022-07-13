@@ -3,10 +3,11 @@
   margin: 0;
 }
 body{
+  overflow: hidden;
   background-color: #000;
 }
 
-.main{
+.stars{
   position: fixed;
   top: 50%;
   left: 50%;
