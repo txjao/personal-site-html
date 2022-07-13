@@ -19,23 +19,17 @@
         margin-bottom: -35px;
     }
     .container-info{
-        margin-bottom: 102px;
     }
 }
 
 @media screen and (min-width: 700px){
     .container-info{
-        position: relative;
-        top: 115px;
     }
 
 @media screen and (min-width: 375px){
     #home{
-        overflow-y: hidden;
       }
         .home-container{
-            position: relative;
-            top: -65px;
         }
     }
 }
