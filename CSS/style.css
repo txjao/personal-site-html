@@ -3,7 +3,7 @@
   margin: 0;
 }
 body{
-  overflow: hidden;
+  overflow-y: hidden;
   background-color: #000;
 }
 
