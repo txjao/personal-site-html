@@ -26,7 +26,7 @@
     .container-info{
     }
 
-@media screen and (min-width: 375px){
+@media screen and (max-width: 375px){
     body{
         overflow: hidden;
     }
