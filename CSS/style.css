@@ -4,19 +4,7 @@
   }
   body{
     overflow-y: hidden;
-    background-color: #000;
-  }
-  
-  .stars{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    height: 1px;
-    width: 1px;
-    background-color: #fff;
-    border-radius: 50%;
-    box-shadow: -24vw -44vh 2px 2px #fff,38vw -4vh 0px 0px #fff,-20vw -48vh 1px 2px #fff,-39vw 38vh 3px 1px #fff,-42vw -11vh 0px 3px #fff,12vw 15vh 3px 3px #fff,42vw 6vh 3px 2px #fff,-8vw 9vh 0px 2px #fff,34vw -38vh 1px 0px #fff,-17vw 45vh 3px 1px #fff,22vw -36vh 3px 2px #fff,-42vw 1vh 1px 0px #fff;
-    animation: zoom 10s alternate infinite;
+    background: #000;
   }
   
   @keyframes zoom {
@@ -68,8 +56,10 @@
     margin-top: 40px;
     height: 60px;
     border: 1px;
-    border-color: white;
+
+    border-color: whitesmoke;
     border-style: solid;
+    
     border-radius: 6px;
     width: 100%;
     cursor: pointer;
@@ -77,8 +67,12 @@
   
   .home-button:hover {
     transition: 0.2s;
-    background-color: #fff;
-    color: #141d52;
+    
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fff, #fff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fff, #fff);
+
+    color: #000;
   }
   
   .text {

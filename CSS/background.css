@@ -1,5 +1,5 @@
 .bg {
-    background: url(https://i.ibb.co/87GbbFP/2799006.jpg) no-repeat;
+    background: url(https://www.esa.int/var/esa/storage/images/19716864-11-eng-GB/ESA_root_pillars.jpg) no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -8,6 +8,7 @@
     left: 0;
     z-index: -3;
 }
+
 .bg:before {
     content: "";
     width: 100%;
